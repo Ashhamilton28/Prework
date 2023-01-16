@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Roboto Slab', serif;
+}
+
+body {
+    background-color: rgb(185, 86, 175);
+    display: flex;
+    justify-content: center;
+    height: 850px;
+
+}
+
+.background {
+    background-color: rgb(209, 120, 200);
+    height: 800px;
+    width: 1200px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+nav {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    position: fixed;
+    background-color: rgb(219, 156, 213);
+    padding-top: 10px;
+}
+
+.ash {
+    padding-left: 120px;
+    color: rgb(80, 2, 72);
+}
+
+
+.ha {
+    padding-left: 700px;
+    font-size: 16px;
+}
+
+.home {
+    margin-right: 15px;
+}
+
+.square1 {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(253, 197, 236);
+    border-radius: 10px;
+    margin-top: 100px;
+    /*makes square come from under nav bar*/
+    /*margin-left: 100px;*/
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+.me {
+    /*my picture square*/
+    width: 320px;
+    height: 320px;
+    border-radius: 10px;
+    margin-top: 100px;
+    /*makes square come from under nav bar*/
+}
+
+.welcome {
+    margin-bottom: 15px;
+
+}
+
+.square1andme {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.square2 {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(253, 197, 236);
+    border-radius: 10px;
+    text-align: left;
+    margin-top: 25px;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.squareandlist {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.fallvibes {
+    width: 320px;
+    height: 320px;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+
+.random {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.randomlist {
+    width: 250px;
+    padding-left: 20px;
+    margin-top: 15px;
+}
+
+.square3 {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(253, 197, 236);
+    border-radius: 10px;
+    margin-top: 100px;
+    /*makes square come from under nav bar*/
+    margin-left: 130px;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+table,
+th,
+td {
+    border-collapse: collapse;
+    border: 1px solid;
+    padding: 5px;
+}
+
+.square3andform {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.headingandform {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(253, 197, 236);
+    border-radius: 10px;
+    margin-top: 100px;
+    /*makes square come from under nav bar*/
+    margin-right: 120px;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+.pleaseleavesuggestions {
+    margin-bottom: 20px;
+}
+
+button {
+    margin-top: 25px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    background-color: rgb(85, 12, 92);
+    color: white;
+}
+
+input {
+    border-radius: 5px;
+    /*make input section for forms rounded*/
+}
+
+.suggest {
+    margin-top: 10px;
+    height: 50px;
+}
+
+.name {
+    margin-top: 10px;
+}
+
+.centerrectangle {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.rectangle {
+    width: 1000px;
+    height: 300px;
+    background-color: rgb(253, 197, 236);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.video1 {
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.video2 {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+p {
+    color: rgb(42, 1, 46);
+}
+
+#lofibeats {
+    text-shadow: 4px 4px 4px rgb(42, 1, 46);
+    padding: 10px 0;
+}
+
+.pinknyc {
+    height: 250px;
+    width: 300px;
+}
